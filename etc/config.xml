@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<iyzico>
+				<askForBillingAddress>1</askForBillingAddress>
+				<currency>TRY</currency>
+				<title>Bank Card</title>
+				<title_backend>iyzico</title_backend>
+			</iyzico>
+		</df_payment>
+        <payment>
+            <dfe_iyzico>
+				<model>Dfe\Iyzico\Method</model>
+            </dfe_iyzico>
+        </payment>
+    </default>
+</config>
