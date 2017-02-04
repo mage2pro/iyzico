@@ -151,6 +151,7 @@
 					showInStore='1'
 				>
 					<label>Payment Currency</label>
+					<comment><![CDATA[<a href='https://mage2.pro/t/2628' target='_blank'>Which currencies are supported?</a>]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
