@@ -5,7 +5,11 @@
 >
 	<virtualType name='Dfe\Iyzico\Validator\Currency' type='Df\Framework\Validator\Currency'>
 		<arguments>
-			<argument name='iso3' xsi:type='string'>TRY</argument>
+			<!--
+				2017-02-05
+				[iyzico] Which currencies are supported? https://mage2.pro/t/2628
+			-->
+			<argument name='iso3' xsi:type='string'>TRY,USD,EUR,GBP,IRR</argument>
 		</arguments>
 	</virtualType>
 </config>
