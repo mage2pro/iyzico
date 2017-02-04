@@ -136,11 +136,28 @@
 					</depends>
 					<validate>required-entry</validate>
 				</field>
+<!--
+2017-02-05
+[iyzico] Which currencies are supported? https://mage2.pro/t/2628
+-->
+				<field
+					id='currency'
+					translate='label'
+					type='Df\Directory\FormElement\Currency'
+					dfValues='TRY,USD,EUR,GBP,IRR'
+					sortOrder='8'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Payment Currency</label>
+					<depends><field id='enable'>1</field></depends>
+				</field>
 				<field
 					id='askForBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='8'
+					sortOrder='9'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -154,7 +171,7 @@
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='9'
+					sortOrder='10'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -168,7 +185,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='10'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -182,7 +199,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='11'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -195,7 +212,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='12'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
