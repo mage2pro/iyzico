@@ -155,10 +155,37 @@
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
+					id='actionForNew'
+					translate='label'
+					type='select'
+					sortOrder='9'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Payment Action for a New Customer</label>
+					<source_model>Df\Payment\Source\ACR</source_model>
+					<comment><![CDATA[A customer is regarded as <b>new</b>, if he does not have any order in the «Completed» or «Processing» state.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
+					id='actionForReturned'
+					translate='label'
+					type='select'
+					sortOrder='10'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Payment Action for a Returned Customer</label>
+					<source_model>Df\Payment\Source\ACR</source_model>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
 					id='askForBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='9'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -172,7 +199,7 @@
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='10'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -186,7 +213,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='11'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -200,7 +227,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='12'
+					sortOrder='14'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -213,7 +240,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='13'
+					sortOrder='15'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'

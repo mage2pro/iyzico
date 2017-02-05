@@ -6,6 +6,8 @@
     <default>
 		<df_payment>
 			<iyzico>
+				<actionForNew>authorize_capture</actionForNew>
+				<actionForReturned>authorize_capture</actionForReturned>
 				<askForBillingAddress>1</askForBillingAddress>
 				<currency>TRY</currency>
 				<title>Bank Card</title>
