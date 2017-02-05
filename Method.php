@@ -12,7 +12,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param object $charge
 	 * @return array(string => string)
 	 */
-	final protected function apiCardInfo($charge) {return [];}
+	protected function apiCardInfo($charge) {return [];}
 
 	/**
 	 * 2017-02-05
@@ -22,7 +22,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param string $chargeId
 	 * @return object
 	 */
-	final protected function apiChargeCapturePreauthorized($chargeId) {return null;}
+	protected function apiChargeCapturePreauthorized($chargeId) {return null;}
 
 	/**
 	 * 2017-02-05
@@ -32,7 +32,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param array(string => mixed) $params
 	 * @return object
 	 */
-	final protected function apiChargeCreate(array $params) {return null;}
+	protected function apiChargeCreate(array $params) {return null;}
 
 	/**
 	 * 2017-02-05
@@ -42,7 +42,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param \Stripe\Charge $charge
 	 * @return string
 	 */
-	final protected function apiChargeId($charge) {return '';}
+	protected function apiChargeId($charge) {return '';}
 
 	/**
 	 * 2017-02-05
@@ -52,7 +52,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param object $response
 	 * @return string
 	 */
-	final protected function apiTransId($response) {return '';}
+	protected function apiTransId($response) {return '';}
 
 	/**
 	 * 2017-02-05
@@ -62,7 +62,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param object $response
 	 * @return array(string => mixed)
 	 */
-	final protected function responseToArray($response) {return [];}
+	protected function responseToArray($response) {return [];}
 
 	/**
 	 * 2017-02-05
@@ -75,7 +75,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * Значение готово для применения в запросе API.
 	 * @return object
 	 */
-	final protected function scRefund($chargeId, $amount) {return null;}
+	protected function scRefund($chargeId, $amount) {return null;}
 
 	/**
 	 * 2017-02-05
@@ -85,7 +85,7 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param string $chargeId
 	 * @return object
 	 */
-	final protected function scVoid($chargeId) {return null;}
+	protected function scVoid($chargeId) {return null;}
 
 	/**
 	 * 2017-02-05
@@ -95,5 +95,5 @@ final class Method extends \Df\StripeClone\Method {
 	 * @param T $t
 	 * @return string
 	 */
-	final protected function transUrlBase(T $t) {return '';}
+	protected function transUrlBase(T $t) {return '';}
 }
