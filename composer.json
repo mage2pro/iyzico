@@ -14,15 +14,20 @@
 	,"require": {"mage2pro/core": "^1.12.6", "iyzico/iyzipay-php": "^2.0.25"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Iyzico\\": ""}}
 	,"keywords": [
-		"3d secure"
-		,"api"
-		,"bank card"
-		,"ecommerce"
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
 		,"iyzico"
-		,"magento"
-		,"magento 2"
-		,"magento extension"
-		,"payment"
-		,"turkey"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"Turkey"
 	]
 }
