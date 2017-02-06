@@ -182,10 +182,23 @@
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
+					id='description'
+					translate='label'
+					type='textarea'
+					sortOrder='11'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Description</label>
+					<comment><![CDATA[It will be displayed in the Paymill web interface alongside the payment.<br/>You can use <a href='https://mage2.pro/t/1834' target='_blank'>the following variables in the template</a>.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
 					id='askForBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='11'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -199,7 +212,7 @@
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='12'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -213,7 +226,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='13'
+					sortOrder='14'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -227,7 +240,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='14'
+					sortOrder='15'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -240,7 +253,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='15'
+					sortOrder='16'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
