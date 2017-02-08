@@ -84,7 +84,7 @@
 					<validate>required-entry</validate>
 				</field>
 				<field
-					id='testSecretKey'
+					id='testPrivateKey'
 					translate='label'
 					type='obscure'
 					sortOrder='5'
@@ -119,7 +119,7 @@
 					<validate>required-entry</validate>
 				</field>
 				<field
-					id='liveSecretKey'
+					id='livePrivateKey'
 					translate='label'
 					type='obscure'
 					sortOrder='7'
