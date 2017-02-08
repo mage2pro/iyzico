@@ -2,6 +2,7 @@
 // 2017-02-05
 namespace Dfe\Iyzico;
 use Magento\Sales\Model\Order\Payment\Transaction as T;
+/** @method Settings s() */
 final class Method extends \Df\StripeClone\Method {
 	/**
 	 * 2017-02-05
