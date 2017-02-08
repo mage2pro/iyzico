@@ -1,7 +1,7 @@
 <?php
 // 2017-02-08
 namespace Dfe\Iyzico\T;
-class Token extends \Df\Core\TestCase {
+final class Charge extends TestCase {
 	/**
 	 * @test
 	 * 2017-02-08
