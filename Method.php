@@ -12,6 +12,9 @@ final class Method extends \Df\StripeClone\Method {
 	 * «Does iyzico have minimum and maximum amount limitations on a single payment?»
 	 * https://mage2.pro/t/2684
 	 * https://iyzico.zendesk.com/hc/tr/requests/77724
+	 * 2017-02-09
+	 * I have got an answer from the iyzico support:
+	 * «There are no restrictions on payments and amounts.»
 	 * @see \Df\Payment\Method::amountLimits()
 	 * @used-by \Df\Payment\Method::isAvailable()
 	 * @return null
