@@ -35,16 +35,6 @@ final class Method extends \Df\StripeClone\Method {
 	/**
 	 * 2017-02-05
 	 * @override
-	 * @see \Df\StripeClone\Method::apiTransId()
-	 * @used-by \Df\StripeClone\Method::_refund()
-	 * @param object $response
-	 * @return string
-	 */
-	protected function apiTransId($response) {return '';}
-
-	/**
-	 * 2017-02-05
-	 * @override
 	 * @see \Df\StripeClone\Method::responseToArray()
 	 * @used-by \Df\StripeClone\Method::transInfo()
 	 * @param object $response
