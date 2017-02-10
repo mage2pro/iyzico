@@ -24,16 +24,6 @@ final class Method extends \Df\StripeClone\Method {
 	/**
 	 * 2017-02-05
 	 * @override
-	 * @see \Df\StripeClone\Method::responseToArray()
-	 * @used-by \Df\StripeClone\Method::transInfo()
-	 * @param object $response
-	 * @return array(string => mixed)
-	 */
-	protected function responseToArray($response) {return [];}
-
-	/**
-	 * 2017-02-05
-	 * @override
 	 * @see \Df\StripeClone\Method::transUrlBase()
 	 * @used-by \Df\StripeClone\Method::transUrl()
 	 * @param T $t
