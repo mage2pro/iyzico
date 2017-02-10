@@ -35,26 +35,6 @@ final class Method extends \Df\StripeClone\Method {
 	/**
 	 * 2017-02-05
 	 * @override
-	 * @see \Df\StripeClone\Method::apiChargeCapturePreauthorized()
-	 * @used-by \Df\StripeClone\Method::charge()
-	 * @param string $chargeId
-	 * @return object
-	 */
-	protected function apiChargeCapturePreauthorized($chargeId) {return null;}
-
-	/**
-	 * 2017-02-05
-	 * @override
-	 * @see \Df\StripeClone\Method::apiChargeCreate()
-	 * @used-by \Df\StripeClone\Method::chargeNew()
-	 * @param array(string => mixed) $params
-	 * @return object
-	 */
-	protected function apiChargeCreate(array $params) {return null;}
-
-	/**
-	 * 2017-02-05
-	 * @override
 	 * @see \Df\StripeClone\Method::apiChargeId()
 	 * @used-by \Df\StripeClone\Method::chargeNew()
 	 * @param \Stripe\Charge $charge
