@@ -6,5 +6,5 @@ final class Charge extends TestCase {
 	 * @test
 	 * 2017-02-08
 	 */
-	public function t01() {}
+	function t01() {}
 }
