@@ -8,7 +8,7 @@
 			<iyzico>
 				<actionForNew>authorize_capture</actionForNew>
 				<actionForReturned>authorize_capture</actionForReturned>
-				<askForBillingAddress>1</askForBillingAddress>
+				<requireBillingAddress>1</requireBillingAddress>
 				<currency>TRY</currency>
 				<title>Bank Card</title>
 				<title_backend>iyzico</title_backend>
