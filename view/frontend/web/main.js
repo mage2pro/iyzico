@@ -16,15 +16,56 @@ define([
 		this._super();
 		return this;
 	},
-	/**
-	 * 2017-02-06
+
+    /**
+	 * 2017-02-16
 	 * @override
-	 * @see https://github.com/magento/magento2/blob/2.1.0/app/code/Magento/Checkout/view/frontend/web/js/view/payment/default.js#L127-L159
-	 * @used-by https://github.com/magento/magento2/blob/2.1.0/lib/web/knockoutjs/knockout.js#L3863
-	 * @param {this} _this
-	*/
-	placeOrder: function(_this) {
-		if (this.validate()) {
-		}
-	}
+	 * @see ...
+	 * @used-by placeOrder()
+	 * @param {Object|Number} status
+	 * @returns {Boolean}
+	 */
+	tokenCheckStatus: function(status) {return null;},
+
+    /**
+	 * 2017-02-16
+	 * @override
+	 * @see ...
+	 * @used-by placeOrder()
+	 * @param {Object} params
+	 * @param {Function} callback
+	 * @returns {Function}
+	 */
+	tokenCreate: function(params, callback) {return null;},
+
+    /**
+	 * 2017-02-16
+	 * @override
+	 * @see ...
+	 * @used-by placeOrder()
+	 * @param {Object|Number} status
+	 * @param {Object} resp
+	 * @returns {String}
+	 */
+	tokenErrorMessage: function(status, resp) {return null;},
+
+    /**
+	 * 2017-02-16
+	 * @override
+	 * @see ...
+	 * @used-by placeOrder()
+	 * @param {Object} resp
+	 * @returns {String}
+	 */
+	tokenFromResponse: function(resp) {return null;},
+
+    /**
+	 * 2017-02-16
+	 * @override
+	 * @see ...
+	 * @used-by placeOrder()
+	 * @returns {Object}
+	 */
+	tokenParams: function() {return null;}
+
 });});
