@@ -18,8 +18,6 @@
 		</arguments>
 	</type>
 	<virtualType name='Dfe\Iyzico\ConfigProvider' type='Df\StripeClone\ConfigProvider'>
-		<arguments>
-			<argument name='module' xsi:type='string'>Dfe_Iyzico</argument>
-		</arguments>
+		<arguments><argument name='module' xsi:type='string'>Dfe_Iyzico</argument></arguments>
 	</virtualType>
 </config>
