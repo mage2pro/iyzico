@@ -11,7 +11,7 @@
 		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": "^2.0.23", "iyzico/iyzipay-php": "^2.0.25"}
+	,"require": {"mage2pro/core": ">=2.0.23", "iyzico/iyzipay-php": "^2.0.25"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Iyzico\\": ""}}
 	,"keywords": [
 		"3D Secure"
