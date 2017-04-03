@@ -1,22 +1,11 @@
 // 2017-02-06
-define([
-	'Df_StripeClone/main'
-], function(parent) {'use strict'; return parent.extend({
+define(['Df_StripeClone/main'], function(parent) {'use strict'; return parent.extend({
 	/**
 	 * 2017-02-06
 	 * The bank card network codes: https://mage2.pro/t/2647
 	 * @returns {String[]}
 	 */
 	getCardTypes: function() {return ['VI', 'MC', 'AE', 'JCB', 'DI', 'DN'];},
-	/**
-	 * 2017-02-06
-	 * @returns {Object}
-	*/
-	initialize: function() {
-		this._super();
-		return this;
-	},
-
     /**
 	 * 2017-02-16
 	 * @override
@@ -26,7 +15,6 @@ define([
 	 * @returns {Boolean}
 	 */
 	tokenCheckStatus: function(status) {return null;},
-
     /**
 	 * 2017-02-16
 	 * @override
@@ -37,7 +25,6 @@ define([
 	 * @returns {Function}
 	 */
 	tokenCreate: function(params, callback) {return null;},
-
     /**
 	 * 2017-02-16
 	 * @override
@@ -48,7 +35,6 @@ define([
 	 * @returns {String}
 	 */
 	tokenErrorMessage: function(status, resp) {return null;},
-
     /**
 	 * 2017-02-16
 	 * @override
@@ -58,7 +44,6 @@ define([
 	 * @returns {String}
 	 */
 	tokenFromResponse: function(resp) {return null;},
-
     /**
 	 * 2017-02-16
 	 * @override
@@ -67,5 +52,4 @@ define([
 	 * @returns {Object}
 	 */
 	tokenParams: function() {return null;}
-
 });});
