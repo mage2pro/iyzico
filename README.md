@@ -2,21 +2,27 @@ The extension integrates your Magento 2 store with the **[iyzico](https://www.iy
 
 ![](https://mage2.pro/uploads/default/original/2X/8/82a4dfffef6c6f99c42d43473100f295f2ed17aa.png)
 
+## How to buy
+The extension is not released yet, so there is no way to buy it just now.  
+The extension will be released before 2017-05-05.   
+
+## How to install
+### 1. Free installation service
+Just order my [free installation service](https://mage2.pro/t/3585).
+
+### 2. Self-installation
+```
+composer require mage2pro/iyzico:*
+bin/magento setup:upgrade
+rm -rf pub/static/* && bin/magento setup:static-content:deploy
+rm -rf var/di var/generation && bin/magento setup:di:compile
+```
+If you have some problems while executing these commands, then check the [detailed instruction](https://mage2.pro/t/263).
+
 ## Licensing
 It is a paid extension, not free.  
 You can use it for free for the testing puproses only.  
-Please read the [testing policy](https://mage2.pro/t/topic/2590) before installation.
-
-## How to buy
-The extension is not released yet, so there is no way to buy it just now.  
-The extension will be released before 2017-04-02.   
-
-## Installation
-### Free installation service
-If you have already bought the extension, then its installation is a **free service** for you. Just provide [me](https://mage2.pro/users/dmitry_fedyuk) an SSH access to your store's server. You can use [my public SSH key](https://mage2.pro/t/2092) for it.
-
-### Self-installation 
-Follow the generic [installation instruction](https://mage2.pro/t/263). 
+Please read the [testing policy](https://mage2.pro/t/2590) before installation.
 
 ## Support
 - [The extension's **forum** branch](https://mage2.pro/c/extensions/iyzico).
