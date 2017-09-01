@@ -55,7 +55,7 @@
 				>
 					<label>Sandbox Mode?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
-					<comment><![CDATA[<a href='https://mage2.pro/t/2617' target='_blank'>How to create a sandbox account?</a>]]></comment>
+					<comment><![CDATA[<ul class='df-note'><li><a href='https://mage2.pro/t/2617' target='_blank'>How to create a sandbox account?</a></li><li><a href='https://mage2.pro/t/2648' target='_blank'>The test bank cards</a>.</li></ul>]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
