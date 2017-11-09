@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 store with the **[iyzico](https://www.iyzico.com/en/)** Turkish payment service.
+The extension integrates your Magento 2 based webstore with the **[iyzico](https://www.iyzico.com/en/)** Turkish payment service.
 
 ![](https://mage2.pro/uploads/default/original/2X/8/82a4dfffef6c6f99c42d43473100f295f2ed17aa.png)
 
