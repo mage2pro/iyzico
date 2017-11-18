@@ -20,4 +20,5 @@
 	<virtualType name='Dfe\Iyzico\ConfigProvider' type='Df\StripeClone\ConfigProvider'>
 		<arguments><argument name='module' xsi:type='string'>Dfe_Iyzico</argument></arguments>
 	</virtualType>
+	<virtualType name='Dfe\Iyzico\Controller\Index\Index' type='Df\Payment\W\Action'/>
 </config>
