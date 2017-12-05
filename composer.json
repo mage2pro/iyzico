@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/iyzico"
-	,"version": "0.2.9"
+	,"version": "0.3.0"
 	,"description": "iyzico integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/iyzico"
@@ -11,7 +11,7 @@
 		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=3.2.2", "iyzico/iyzipay-php": "^2.0.25"}
+	,"require": {"mage2pro/core": ">=3.4.1", "iyzico/iyzipay-php": "^2.0.25"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Iyzico\\": ""}}
 	,"keywords": [
 		"3D Secure"
